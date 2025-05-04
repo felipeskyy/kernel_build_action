@@ -20,10 +20,12 @@ jobs:
           kernel-branch: lts
           config: caprip_defconfig
           arch: arm64
-          aosp-gcc: true
+          aosp-gcc: false
           aosp-clang: true
+          other-clang-url: https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r536225.tar.gz
           ksu: false
-          android-version: 15
           aosp-clang-version: r536225
+          extra-cmd: LLVM=1
           disable-lto: true
           anykernel3: true
+          release: true
