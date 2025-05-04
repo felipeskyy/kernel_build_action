@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/felipeskyy/android_kernel_motorola_sm6225
           kernel-dir: msm-4.19
           kernel-branch: lts
-          config: caprip_defconfig
+          config: vendor/caprip_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
